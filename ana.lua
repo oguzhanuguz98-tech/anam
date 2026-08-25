@@ -7,7 +7,6 @@ local playerGui = player:WaitForChild("PlayerGui")
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "AnneSeviyorum"
 screenGui.ResetOnSpawn = false
-screenGui.ZIndex = 999
 screenGui.Parent = playerGui
 screenGui.Visible = true
 
